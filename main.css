@@ -1,0 +1,86 @@
+:root {
+  --color-white: #f3f3f3;
+  --color-darkblue: #1b1b32;
+  --color-lightblue: rgba(58, 58, 158, 0.8);
+  --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+  --color-green: #37af65;
+}
+html {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5;
+  font-size: 15px;
+  font-weight: 400;
+}
+body {
+  color: var(--color-white);
+  background-image: url(./assets/descarga.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  position: relative;
+  overflow-y: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+main {
+  background-color: var(--color-lightblue);
+  width: 100%;
+  padding: 0;
+}
+.title-container {
+  padding-top: 20px;
+}
+#description {
+  margin-top: -20px;
+  color: #ced4da;
+  font-size: 1.3em;
+  margin-bottom: 40px;
+}
+#survery-form {
+  background-color: var(--color-darkblue-alpha);
+  margin: 0 auto;
+  width: 70%;
+  border-radius: 5px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+.form-control {
+  height: 30px;
+  border-radius: 5px;
+  font-size: .7em;
+  background-color: var(--color-white);
+  border: 1px solid #ced4da;
+}
+.input-radio {
+  height: 20px;
+  width: 20px;
+}
+.input-checkbox {
+  height: 20px;
+  width: 20px;
+}
+#comments {
+  min-height: 120px;
+  font-size: 0.8em;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+}
+#submit {
+  min-height: 50px;
+  background-color: var(--color-green);
+  color: var(--color-white);
+  font-size: 1em;
+  cursor: pointer;
+}
